@@ -1,0 +1,78 @@
+.add-card {
+  background-image: linear-gradient(rgb(130, 157, 167), rgb(93, 121, 131));
+  overflow: hidden;
+  font-weight: 1000;
+  height: 153px;
+  color: white;
+  border: none;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
+.add-card:hover {
+  cursor: pointer;
+  transform: translateY(-3%);
+  box-shadow: 0 5px 15px -5px rgba(10, 0, 0, 0.5);
+}
+.show-card {
+  position: relative;
+  background-image: linear-gradient(rgb(129, 194, 218), deepskyblue);
+  overflow: hidden;
+  font-weight: 1000;
+  height: 153px;
+  color: white;
+  border: none;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
+.show-card:hover {
+  cursor: pointer;
+  transform: translateY(-3%);
+  box-shadow: 0 5px 15px -5px rgba(10, 0, 0, 0.5);
+}
+.standard-pitch {
+  margin: 10px;
+}
+.global-title {
+  font-size: 1.2em;
+  font-weight: 1000;
+  // font-family: "my-font";
+}
+.global-border {
+  border: 1px solid rgb(194, 194, 194);
+}
+@font-face {
+  font-family: "my-font";
+  src: url("../font/monaco.ttf");
+}
+
+.info-circle {
+  width: 12px; 
+  height: 12px; 
+  background: #909399; 
+  border-radius: 50px; 
+}
+.warning-circle {
+  width: 12px; 
+  height: 12px; 
+  background: #E6A23C; 
+  border-radius: 50px; 
+}
+.success-circle {
+  width: 12px; 
+  height: 12px; 
+  background: #67C23A; 
+  border-radius: 50px; 
+}
+.error-circle {
+  width: 12px; 
+  height: 12px; 
+  background: #F56C6C; 
+  border-radius: 50px; 
+}
+.pointer:hover {
+  cursor: pointer;
+}
+.text-center {
+  display: block;
+  text-align: center;
+}
